@@ -1,0 +1,35 @@
+button{
+    background-color: aqua;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48;
+    text-align: justify;
+    text-decoration: wavy;
+    background-size: contain;
+}
+
+.button-group{
+    width:fit-content;
+    background-color: blanchedalmond;
+    border: 1px solid blueviolet;
+    color: black;
+    cursor: pointer;
+    padding: 0% 2%;
+}
+
+.button-group button:hover{
+    text-decoration: underline;
+    cursor: grab;
+}
+
+.footer{
+    align-items: end;
+}
